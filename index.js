@@ -2,7 +2,7 @@
 
 const imp = require('./protochain.js');
 let obj = imp.o3;
-let result = [];
+const result = [];
 
 while (obj.prototype) {
     obj = obj.prototype;
